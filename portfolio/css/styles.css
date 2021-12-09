@@ -1,0 +1,85 @@
+/* 全体 */
+.flex-list {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+}
+
+nav {
+    border: 2px solid rgb(148, 148, 148);
+}
+
+
+/* header */
+
+#header-logo {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(196, 196, 196);
+    border: rgb(148, 148, 148);
+}
+
+.logo {
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+span {
+    color:  yellow;
+}
+
+
+
+/* section */
+section {
+    padding: 1rem;
+}
+
+section h2 {
+    text-align: center;
+}
+
+
+
+/* profile */
+#profile .flex-list {
+    align-items: flex-start;
+}
+
+#profile img {
+    width: 20%;
+}
+
+#profile p {
+    width: 50%;
+    text-align: left;
+}
+
+
+
+/* skills */
+#skills #icon {
+    font-size: 50px;
+}
+
+#card {
+    background-color: rgb(238, 238, 238);
+    padding: 0 3rem 2rem 3rem;
+}
+
+/* others */
+#others img {
+    width: 100px;
+}
+
+#others #icon {
+    font-size: 100px;
+}
+
+#others,div {
+    text-align: center;
+}
